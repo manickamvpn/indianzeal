@@ -1,0 +1,656 @@
+<html lang="en">
+<head>
+    <style>
+    @font-face {
+              font-family: titleFont;
+              src: url(../titlefont.ttf);
+          }
+    @font-face{
+            font-family:categoryFont;
+            src: url(../abril.ttf);
+        }
+    @font-face
+        {
+          font-family:subTitleFont;
+          src:url(../boldReg.ttf);
+        }
+    @font-face
+        {
+          font-family:lightFont;
+          src: url(../regularReg.ttf);
+        }
+    @font-face
+        {
+          font-family:highlightFont;
+          src: url(../boldItalicReg.ttf);
+        }
+
+    @font-face
+        {
+          font-family:regularBld;
+          src: url(../regularBld.ttf);
+        }
+.title
+          {
+            
+            font-family:'Alpha-';
+            
+            font-size:40px;
+            word-wrap:break-word;
+            color:#444443;
+
+
+          }
+.pageTitle
+          {
+            font-family:categoryFont;
+            font-size:40px;
+            color:#444443;
+          }
+.type
+          {
+            margin-top:0px;
+            position:relative;
+            font-family:categoryFont;
+            font-size:20px;
+            color:#808080;
+            left:1px;
+
+          }
+    
+    .author   
+          {
+            position:relative;
+            font-family:categoryFont;
+            font-size:20px;
+            color:#808080;
+            left:1px;
+          }
+    .date 
+          {
+            position:relative;
+            font-family:categoryFont;
+            font-size:16px;
+            color:#B7B3B3;
+            color:#444443;
+            left:1px;
+          }
+    .articleContent
+          { 
+            width:95%;
+            
+          }
+    .content
+          {
+            margin-top:0px;
+          }
+
+    .subTitle
+          {
+            
+            font-size:30px;
+            font-family:georgia;
+            color:#444443;
+            margin-top:15px;
+            border:solid 0px;
+            border-color:#444443;
+            border-bottom-width:4px;
+            padding-top:10px;
+            padding-bottom:10px;
+          }
+    .mainText
+          {
+            font-size:21px;
+            word-spacing:1px;
+            
+            font-family:georgia;
+            color:#444443;
+
+          }
+    .contentImage
+          {          
+            width:100%;
+            
+          }
+    .highlight
+          {
+            position:relative;
+            width:98%;
+            word-spacing:3px;
+            border: solid 5px;
+            border-left-width: 5px;
+            border-right-width: 5px;
+            border-top-width: 0px;
+            border-bottom-width:0px;
+            border-color:#44893C;
+            margin:0 auto;
+            text-align:center;
+            font-family:regularBld;
+            font-size:25px;
+            color:#44893C;
+          }
+    .firstLetter
+          {
+            font-family:georgia;
+            font-size:38px;
+            line-height:0.9em;
+          }
+    .textSubtitle
+          {
+            font-family:georgia;
+            font-size:23px;
+            
+            text-decoration:underline;
+          }
+
+    .sideDiv
+          {
+            
+            
+            
+          }
+    .designDiv
+          {
+            width:100px;
+            height:6px;
+            background:#444443;
+            margin-left:5%;
+          }
+    .sideDivTitle
+          {
+            
+            
+            top:10px;
+            font-family:categoryFont;
+            font-size:25px;
+            word-wrap:break-word;
+            color:#63666a;
+            margin-left:5%;
+            
+          }
+
+    .cardTitle
+        {
+          font-family:categoryFont;
+          font-size:30px;
+
+        }
+
+.navbar {
+        min-height: 70px;
+      }
+
+.navbar-brand {
+  padding: 0 5px;
+  height: 70px;
+  line-height: 70px;
+  font-size:45px !important;
+  font-family:titleFont;
+  color:#444443 !important;
+}
+.nav-link
+{
+  font-family:categoryFont;
+}
+.nav-item
+{
+
+}
+
+.navbar-toggler {
+  /* (80px - button height 34px) / 2 = 23px */
+  
+}
+
+@media (min-width: 1200px) {
+
+  .navbar-brand 
+          {
+            font-size: 45px !important;
+          }
+        .nav-link
+          {
+            font-size:25px;
+            
+          }
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    
+    padding: 21.5px 15px 21.5px 21.5px !important;
+    line-height: 27px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 1200px) 
+      {
+        .navbar
+          {
+            min-height:40px;
+          }
+          .title
+          {
+            font-size:30px;
+          }
+          .type
+          {
+            font-size:18px;
+          }
+          .author
+          {
+            font-size:18px;
+          }
+          .date
+          {
+            font-size:15px;
+          }
+        .navbar-brand 
+          {
+            height:50px;
+            font-size: 30px !important;
+          }
+        .nav-link
+          {
+           font-size:20px;
+           border:0px !important;
+
+          }
+        .mainText
+          {
+            font-size:18px;
+          }
+        .subTitle
+          {
+            font-size:25px;
+          }
+        .textSubtitle
+          {
+            font-size:20px;
+          }
+
+          .mainStoryTitle
+          {
+          }
+
+          .mainStoryTitle
+          {
+            
+          }
+
+          .campusWatchTitle
+          {
+            font-size:35px !important;
+          }
+          .campusWatchDescription
+          {
+            font-size:19px !important;
+          }
+
+          .articleTitle
+          {
+            font-size:1.6rem !important; 
+          }
+                }
+
+      .mainStoryImage
+        {
+          max-height:60%;
+          width:100%;
+
+        }
+      .mainStoryTitle
+        {
+          font-size:1.7rem;
+          font-family:"Source Sans Pro", sans-serif;
+          font-weight:bold;
+          line-height:2.2rem;
+          
+          padding-right:5px;
+          
+        }
+      .mainStoryDescription
+        {
+          font-size:1.2rem;
+          font-family:georgia;
+          padding-top:6px;
+          padding-bottom:15px;
+
+
+        }
+
+      .typeOfMainStory a
+        {
+          font-family:'Source Sans Pro', sans-serif;
+          font-size:medium;
+          color:#990000 !important;
+        }
+
+      .campusWatchTitle
+        {
+          font-family:titleFont;
+          font-size:40px;
+          padding-left:10px;
+        }
+      .campusWatchDescription
+        {
+          font-family:categoryFont;
+          font-size:23px;
+          padding-left:13px;
+          margin-top:-8px;
+          padding-bottom:13px;
+
+
+        }
+
+        .reconsiderHeader
+        {
+          font-family:titleFont;
+          font-size:40px;
+        }
+
+        .columnTitleChange
+        {
+          font-family:categoryFont;
+          font-size:2.5rem;
+          color:#990000;
+        }
+        .onTheFrontTitle
+        {
+          font-family:'Source Sans Pro', sans-serif;
+          font-size:25px;
+          color:#990000;
+        }
+
+        .onlyTextStory
+        {
+          font-size:2rem;
+          color:#990000;
+          font-family:'Source Sans Pro', sans-serif;
+          font-weight:bold;
+        }
+        .onlyTextStoryBody
+        {
+          font-size:1.2rem;
+          font-family:'Source Sans Pro', sans-serif;
+          color:#696969;
+        }
+
+        .media-body
+        {
+          overflow:visible !important;
+        }
+
+        
+      
+
+      
+    
+      
+  </style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+  
+<link rel="stylesheet" href="social-share.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
+  <a class="navbar-brand" href="#">The Indian Zeal</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+
+        <a class="nav-link" style="border:solid 0px; border-left-width:5px; border-"href="#">Weekly</a>
+
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="" href="#">Rethink</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:#990000;"href="#">Student</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Environment</a>
+      </li>
+      
+      
+       
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid mt-4">
+  <ul class="ct-socials">
+  <li>
+    <a href="/" target="_blank"><i class="fa fa-twitter"></i></a>
+  </li>
+  <li>
+    <a href="/" target="_blank"><i class="fa fa-facebook"></i></a>
+  </li>
+  <li>
+  <a href="/" target="_blank"><i class="fa fa-whatsapp"></i></a>
+  </li>
+</ul>
+  <div class="row" >
+    <div class="col-md-5 offset-md-1  border-right" style="margin-right:1%;">
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="columnTitleChange" style=""><span style="font-weight: lighter;font-family:'Source Sans Pro', sans-serif; padding-right:0.5rem;">Campus</span>Watch.</div>
+        </div>
+      </div>
+      <div class="row mt-0 mb-3">
+        <div class="col-md-12">
+          <div class="border-bottom" style="">
+            
+            <img class="img-fluid mainStoryImage pt-3" src="images/nitc-board.jpg">
+            
+            <div class="mainStoryTitle articleTitle mt-2">NIT Calicut's Long-Standing Culture Of Sexism And Female Oppression</div>
+            <p style="font-size:1.2rem;font-family:'Source Sans Pro', sans-serif; color:#696969;"> 
+              An account of news reports, student and alumni experiences over the past few years
+              <br>
+            <span class="onTheFrontTitle pb-2"> Student Cover</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-0 mb-3">
+        <div class="col-md-12">
+          <div class="border-bottom pb-3" style=" ">
+            <div class="mainStoryTitle articleTitle" style="">Fergusson College's Unsecular Measures</div>
+            <p style="font-size:1.2rem;font-family:'Source Sans Pro', sans-serif; color:#696969; overflow:hidden;"> 
+              An account of news reports, student and alumni experiences over the past few years
+              <br>
+            
+            </p>
+            <img class="img-fluid mainStoryImage pr-2" style="max-width:100%;"src="images/fergusson-college-main-building.jpg">
+            
+            
+            
+          
+          </div>
+        </div>
+      </div>
+      <!--<div class="row mb-3" style="">
+          <div class="col-md-12" style="">
+                 <div class="shadow p-3">
+                 <div class="campusWatchTitle text-center">Campus Report</div>
+                 <div class="campusWatchDescription text-center"><b>Be a <a href="">student journalist</a> and tell us what's happening in your varsity. We're listening.</b></div>
+                 </div>
+          </div>
+          
+        </div>-->
+
+    </div>
+
+    <div class="col-md-5 d-flex flex-column" style="">
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <div class="columnTitleChange" style=""><span style="font-weight: lighter;font-family:'Source Sans Pro', sans-serif; padding-right:0.6rem;"><strike>Regress</strike></span>Progress.</div>
+        </div>
+      </div>  
+      
+      <div class="row mb-3" style="">
+        <!--<div class="" style="width:48%; margin-right:4%;">
+          <div class="shadow p-3 ml-2">
+            
+            <img class="" src="images/mini-drafter.jpg" style="max-width: 100%;">
+            <div class="articleTitle pt-2" style="font-family:categoryFont; font-size:1.6rem; line-height:2.1rem;">The Mini Drafter On Trial</div>
+            <div class="typeOfMainStory"><a href=""> Rethink </a></div>
+
+            
+            
+            
+          </div>
+        </div>
+        <div class="" style="width:48%;">
+          <div class="shadow p-3 mr-2">
+            
+            <img class="" src="images/newspaper-truth.jpg" style="max-width: 100%;">
+            <div class="articleTitle pt-2" style="font-family:categoryFont; font-size:1.6rem; line-height:2.1rem;">Why Varsities Neeed Independant Student Run Newspapers</div>
+            <div class="typeOfMainStory"><a href=""> Change </a></div>
+
+            
+            
+            
+          </div>
+        </div>-->
+        <div class="col-md-12">
+            <!--<div class="media shadow p-3 mb-3" style="background:red;">
+              <span class="media-left">
+                <img class="img-fluid" src="images/free-speech-movement.jpg" style="width:50%;" alt="">
+              </span>
+              <div class="media-body">
+                <p><span class="articleTitle" style="font-family:categoryFont;font-size:1.6rem; line-height:2.1rem;">The Free Speech Movement, simplified</span></p>
+                <span class="typeOfMainStory"><a href=""> Rethink </a></span>
+              </div>
+            </div>-->
+
+            <div class="media border-bottom">
+              <div class="media-left pr-2">
+                <img src="images/newspaper-truth.jpg" class="media-object img-fluid" style="max-width:8rem;">
+                </div>
+                <div class="media-body">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.3rem;font-family: 'Source Sans Pro', sans-serif;font-size:1.3rem; font-weight: bold;">Why Varsities Need Student Run Newspapers</div>
+                <p style="font-family: 'Source Sans Pro', sans-serif; color:#696969;">Among many other things, Print or online papers would also allow room for political debate and thought outside the field of academics
+                  <br>
+                  <span class="typeOfMainStory mt-0" style="font-weight: normal;font-family: 'Source Sans Pro', sans-serif;"><a href=""> Rethink </a></span>
+                </p>
+                
+              </div>
+            </div>
+           
+            
+          
+        
+        </div>
+      </div>
+      <div class="row mb-2" style="">
+        <div class="col-md-12">
+            <!--<div class="media shadow p-3 mb-3" style="background:red;">
+              <span class="media-left">
+                <img class="img-fluid" src="images/free-speech-movement.jpg" style="width:50%;" alt="">
+              </span>
+              <div class="media-body">
+                <p><span class="articleTitle" style="font-family:categoryFont;font-size:1.6rem; line-height:2.1rem;">The Free Speech Movement, simplified</span></p>
+                <span class="typeOfMainStory"><a href=""> Rethink </a></span>
+              </div>
+            </div>-->
+
+            <div class="media border-bottom">
+              <div class="media-left pr-2">
+                <img src="images/students-protesting.jpg" class="media-object img-fluid" style="max-width:8rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Source Sans Pro', sans-serif;font-size:1.3rem; font-weight: bold;">Questioning The Constitutionality Of Prohibitions On Student Dharnas </div>
+                <p style="font-family: 'Source Sans Pro', sans-serif; color:#696969;">
+                  Various varsities have stipulated regulations that inhibit the fundamental right to peacefully assemble and protest
+                  <br>
+                  <span class="typeOfMainStory mt-0" style="font-weight: normal;font-family: 'Source Sans Pro', sans-serif;"><a href=""> Opinion </a></span>
+                </p>
+                
+              </div>
+            </div>
+           
+            
+          
+        
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <div class="border-bottom">
+              <div class="onlyTextStory">
+              The Mini Drafter On Trial
+              </div>
+
+              <p class="onlyTextStoryBody"> 
+              A "full-fledged view" of engineering, sure. But how is the mandatory first year course of Engineering Graphics relevant to branches like Biotech and CSE, from a practical standpoint?
+              <br>
+              <span class="typeOfMainStory"><a style="font-size:1.2rem !important;"> Commentary </a></span>
+              </p>
+          </div>
+
+        </div>
+        </div>
+
+      
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <div class="columnTitleChange" style=""><span style="font-weight: lighter;font-family:'Source Sans Pro', sans-serif; padding-right:0.6rem;">Explained,</span>In Crux.</div>
+        </div>
+      </div>  
+      <div class="row mb-4" style="">
+        <div class="col-md-12">
+            <!--<div class="media shadow p-3 mb-3" style="background:red;">
+              <span class="media-left">
+                <img class="img-fluid" src="images/free-speech-movement.jpg" style="width:50%;" alt="">
+              </span>
+              <div class="media-body">
+                <p><span class="articleTitle" style="font-family:categoryFont;font-size:1.6rem; line-height:2.1rem;">The Free Speech Movement, simplified</span></p>
+                <span class="typeOfMainStory"><a href=""> Rethink </a></span>
+              </div>
+            </div>-->
+
+            <div class="media border-bottom">
+              <div class="media-left pr-2">
+                <img src="images/free-speech-movement.jpg" class="media-object img-fluid" style="max-width:100%;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.3rem;font-family: 'Source Sans Pro', sans-serif;font-size:1.3rem; font-weight: bold;">The Free Speech Movement</div>
+                <p style="font-family: 'Source Sans Pro', sans-serif;">UC Berkley's protest to lift the administration's ban on on-campus political activities was a remarkable fight to ensure students' right to free speech and academic freedom
+                  <br>
+                  <span class="typeOfMainStory mt-0" style="font-weight: normal;font-family: 'Source Sans Pro', sans-serif;"><a href=""> Explained </a></span>
+                </p>
+                
+              </div>
+            </div>
+           
+            
+          
+        
+        </div>
+      </div>
+
+      
+    </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>

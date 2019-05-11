@@ -1,0 +1,734 @@
+<html lang="en">
+<head>
+    <style>
+ h1, h2, h3, h4, h5, h6 {
+  line-height: 1.45;
+ padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+
+    .cardTitle
+        {
+          font-family:'Playfair Display', serif;
+          font-weight:bold;
+          font-size:2.5rem;
+          
+          color:#177C72;
+          
+        }
+    .cardList
+        {
+          font-family:'Playfair Display', sans-serif;
+          font-weight:bold;
+          font-size:1.3rem;
+          color:white;
+        }
+
+.navbar {
+        min-height: 70px;
+      }
+
+.navbar-brand {
+  padding: 0 5px;
+  height: 70px;
+  line-height: 70px;
+  font-size:2.4rem !important;
+  font-family:'Abril Fatface', cursive;
+  
+  }
+.nav-link
+{
+  font-family:'Abril Fatface', cursive;
+
+  
+}
+.nav-link
+{
+  color:grey !important;
+}
+.nav-link:hover
+{
+  color:rgba(0,0,0,.7) !important;
+}
+
+.navbar-toggler {
+  /* (80px - button height 34px) / 2 = 23px */
+  border:none !important;
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+.imageDescription
+{
+  color:grey;
+  font-size:1rem;
+}
+
+@media (min-width: 1200px) {
+
+  .navbar-brand 
+          {
+            font-size: 2.4rem !important;
+          }
+        .nav-link
+          {
+            font-size:25px;
+            
+          }
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    
+    padding: 21.5px 15px 21.5px 21.5px !important;
+    line-height: 27px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 500px) 
+      {
+        .navbar
+          {
+            min-height:40px;
+          }
+          .title
+          {
+            font-size:30px;
+          }
+          .type
+          {
+            font-size:18px;
+          }
+          .author
+          {
+            font-size:18px;
+          }
+          .date
+          {
+            font-size:15px;
+          }
+        .navbar-brand 
+          {
+            height:45px;
+            font-size: 1.57rem !important;
+          }
+        .nav-link
+          {
+           font-size:20px;
+           border:0px !important;
+
+          }
+        .mainText
+          {
+            font-size:18px;
+          }
+        .subTitle
+          {
+            font-size:25px;
+          }
+        .textSubtitle
+          {
+            font-size:20px;
+          }
+
+          .mainStoryTitle
+          {
+          }
+
+          .mainStoryTitle
+          {
+            
+          }
+
+          .campusWatchTitle
+          {
+            font-size:35px !important;
+          }
+          .campusWatchDescription
+          {
+            font-size:19px !important;
+          }
+
+          .articleTitle
+          {
+            font-size:1.2rem !important; 
+          }
+          .columnTitleChange
+          {
+            font-size:1.9rem !important;
+          }
+          .cardTitle
+          {
+            font-size:2rem !important;
+          }
+          h4
+          {
+          	font-size:1.3rem !important;
+          }
+          .lastInRow
+          {
+          	border-bottom-width:1px !important;
+          }
+          .borderRight
+          {
+          	border-right-width:0px !important;
+          }
+          .environmentHeader, .thisWeekHeader
+          {
+          	font-size:2rem !important;
+          }
+         
+                }
+
+      .mainStoryImage
+        {
+          
+          
+
+        }
+      .mainStoryTitle
+        {
+          font-size:1.9rem;
+          font-family:"Playfair Display", serif;
+          font-weight:bold;  
+          
+          
+          padding-right:5px;
+          
+        }
+      .mainStoryDescription
+        {
+          font-size:1.2rem;
+          font-family:georgia;
+          padding-top:6px;
+          padding-bottom:15px;
+
+
+        }
+
+      .typeOfMainStory a
+        {
+          font-family:'Source Sans Pro', sans-serif;
+          font-size:medium;
+          color:green !important;
+        }
+
+      
+        .onTheFrontType
+        {
+          font-family:'Playfair Display', serif;
+          color:#922228;
+          border:solid 0px;
+          border-color:#922228;
+
+          border-right-width:2px;
+        }
+
+        .onlyTextStory
+        {
+          font-size:2rem;
+          color:#990000;
+          font-family:'Source Sans Pro', sans-serif;
+          font-weight:bold;
+        }
+        .onlyTextStoryBody
+        {
+          font-size:1.2rem;
+          font-family:'Source Sans Pro', sans-serif;
+          color:#696969;
+        }
+
+        .media-body
+        {
+          overflow:visible !important;
+        }
+        .futureEnvisioned
+        {
+          font-family: categoryFont;
+          color:green;
+          font-size:2.6rem;
+        }
+        .bordered
+        {
+        	border:solid 0px; border-bottom-width:1px; border-color:#C0C0C0;
+        }
+        .environmentHeader
+        {
+        	color:green;
+        	font-size:2.5rem;
+        	font-family:'Abril Fatface', cursive;
+        	
+        }
+        .thisWeekHeader
+        {
+        	color:#922228;
+        	font-size:2.5rem;
+        	font-family:'Abril Fatface', cursive;
+
+        	
+        }
+        .borderRight
+        {
+          border:0px solid;
+          border-right-width:1px;
+          border-color:#C0C0C0;
+        }
+        .lastInRow
+        {
+        	border:0px solid;
+        	border-color:#C0C0C0;
+        }
+        .onTheFrontTypeE
+        {
+          border:0px;
+          color:green;
+          border:solid 0px;
+          border-right-width:2px;
+          border-color:green;
+          font-family:'Playfair Display', serif;
+        }
+        a
+        {
+        	text-decoration:none;
+        	color:inherit !important;
+        }
+        .mainArticle
+        {
+        	cursor:pointer;
+        }
+
+        .media
+        {
+        	cursor:pointer;
+        }
+        .readTime
+        {
+        	
+        	font-weight:bold;
+        	color:#686868;
+        	font-family:'Source Sans Pro', serif;
+        }
+        .author
+        {
+        	font-family:'Source Sans Pro', serif;
+        	font-weight:bold;
+        	color:#585858;
+        }
+        .chosen
+        {
+          color:#922228 !important;
+        }
+        .chosen:hover
+        {
+          color:#922228 !important;
+        }
+
+
+      
+
+      
+    
+      
+  </style>
+  <title>Weekly — The Indian Zeal</title>
+  <meta charset="utf-8">
+  
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
+  <a class="navbar-brand" href="#">The Indian Zeal</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item ">
+
+        <a class="chosen nav-link text-center" style="border:solid 0px; border-left-width:5px; border-" href="index.html">Weekly</a>
+
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link text-center" href="./thestudent/index.html">Student</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" href="./mission/index.html" style=""> Mission </a>
+      </li>
+      
+      
+      
+       
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item text-center icons">
+        <a class="nav-link fa fa-facebook fa-2x pr-4" href="https://www.facebook.com/sharer/sharer.php?u=indianzeal.in" style=""> </a>
+        <a class="nav-link fa fa-twitter fa-2x pr-4" href="http://www.twitter.com/share?url=http://www.indianzeal.in/" style=""> </a>
+        <a class="nav-link fa fa-whatsapp fa-2x" href="https://api.whatsapp.com/send?text=http://www.indianzeal.in/" target="_blank" style=""></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  
+  <div class="row pt-1">
+    <div class="col-md-5 offset-md-1 mr-4 borderRight" style="">
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mainArticle pt-2 pb-4 bordered" style="">
+            
+            <img class="img-fluid mainStoryImage" src="rethink/images/caste_system.jpg" style="max-width:100%;">
+            
+            <div class="mainStoryTitle articleTitle mt-3" style=""><h3><span class="onTheFrontType pr-2 mr-2" style="font-weight:bold;">Rethink</span><a href="rethink/articles/caste-system-2.html"><b>The Caste System Hasn't Been Eradicated. It Has Just Evolved.</b></a></h3></div>
+            <h5 class="mt-2"style="font-family: 'Source Sans Pro', sans-serif; color:#696969; line-height:1.2;">Contrary to popular belief, the caste system still seems to be thriving—just in another form.</h5>
+            <h5><div style="" class="readTime mt-2"> Read Time: 5 minutes </div></h5>
+            <h5 class="readTime mt-1"> <b> Zeal Editorial </b></h5>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media lastInRow pt-1 pb-3" style="">
+              	
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontType pr-0 mr-1" style="font-weight:bold;"> Quick Reads </span><a href="rethink/articles/intersectionality-in-the-indian-context.html">Intersectional Feminism, Explained in the Indian Context</a></b></h4>
+                <h6><div class="readTime mt-2"> Read Time: 2 minutes </div></h6>
+                <h6 class="readTime mt-1"> <b> The Explainers </b></h6>
+                
+                </div>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="col-md-5" style=""> 
+      
+      
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media bordered pt-1 pb-3" style="">
+              	<div class="media-left pr-2 ">
+                <img src="rethink/images/gender_segregation.svg" class="media-object img-fluid" style="max-width:6rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontType pr-0 mr-1" style="font-weight:bold;"> The Mavericks' Take </span><a href="rethink/articles/gender-segregation.html">India's Culture Of Gender Segregation: How Traditionalist Prejudice Hinders Modern Progression</a></b></h4>
+                <h6><div class="readTime mt-2"> Read Time: 4 minutes </div></h6>
+                <h6 class="readTime mt-1"> <b> Arundati Sri </b></h6>
+                
+                </div>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media bordered pt-1 pb-3" style="">
+                <div class="media-left pr-2 ">
+                <img src="rethink/images/political-spectrum-main-image.jpg" class="media-object img-fluid" style="max-width:6rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontType pr-0 mr-1" style="font-weight:bold;"> Elicit </span><a href="rethink/articles/political-spectrum-noobs.html">The Political Spectrum, Explained For Noobs</a></b></h4>
+                <h6><div class="readTime mt-2"> Read Time: 6 minutes </div></h6>
+                <h6 class="readTime mt-1"> <b> The Explainers </b></h6>
+                </div>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media bordered pt-1 pb-3" style="">
+              
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontType pr-0 mr-1" style="font-weight:bold;"> Revamp </span><a href="rethink/articles/indian-cinema-rape.html">Indian Cinema Seriously Needs to Stop Using Rape as an Engagement Gimmick</a></b></h4>
+                	<h6><div class="readTime mt-2"> Read Time: 4 minutes </div></h6>
+                <h6 class="readTime mt-1"> <b> Manickam Valliappan </b></h6>
+                </div>
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+      
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media bordered pt-1 pb-3" style="">
+              
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b>
+                	<span class="onTheFrontType pr-0 mr-1 pb-0" style="font-weight:bold;"> On The Student Column </span>
+                	<span class="" style=""><a href="thestudent/articles/nitc-sexism-oppression.html">NIT Calicut's Longstanding History of Institutional Sexism and Oppression</a></span>
+                </b></h4>
+            <h6><div class="readTime mt-2"> Read Time: 7 minutes </div></h6>
+            <h6><div class="readTime mt-1"> Student Editorial </div></h6>
+        </div>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+
+     
+        <div class="row pb-4 mt-3">
+        <div class="col-md-12">
+          <div class="media pt-1 pb-3 lastInRow" style="">
+              <div class="media-left pr-2">
+                <img src="rethink/images/meat.jpg" class="media-object img-fluid" style="max-width:6rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h5><b><span class="onTheFrontType pr-0 mr-1" style="font-weight:bold;"> Opinion </span><a href="rethink/articles/veganism-morality.html">Why The Moral Argument Won't Be Enough For Convincing People To Go Vegan</b></h5>
+                <p class="mt-1"style="font-family: 'Source Sans Pro', sans-serif; color:#696969; line-height:1.2;">
+                  Solely relying on sensitivity and ethical reasoning to propel veganism might not be effective - but here's what could work.
+                </p></a>
+                <h6 class="readTime mt-n2"> Read Time: 3 minutes </h6>
+                <h6 class="readTime mt-1"> <b> Aadit Saroj </b></h6>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        
+
+  
+		</div>
+
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 text-center mt-md-2 mt-0 pb-2" style="">
+		<div class="environmentHeader">Environment</div>
+		</div>
+    <div class="col-md-5 offset-md-1 mr-md-4 mr-0 borderRight mt-3" style="">
+      
+      <div class="pb-3 lastInRow" style="">
+ 
+              
+              
+              
+            <div class="text-center">
+           	<img class="img-fluid" src="environment/images/water-crisis.jpg" style="max-width:100%;">
+            <div style="" class="cardTitle pt-2 pb-2" style="">India's Water Woes</div>
+            </div>
+            
+            <div class="clearfix"></div>
+            <ul class="cardList pt-2 pb-4 pr-1" style="margin:0 auto; background-color:#177C72;">
+              <li style=""> <span style="font-size:2.8rem;">70%</span> of water in India is contaminated. </li>
+              <li> <span style="font-size:2.8rem;">200,000</span> Indians die every year due to the lack of clean water. </li>
+              <li> Demand will be <span style="font-size:2.8rem;">twice</span> as much as avaliable supply by 2030. </li>
+              <li> <span style="font-size:2.8rem;">21</span> cities likely to run out of groundwater by 2020. </li>
+            </ul>
+          </div>
+
+      
+      
+      
+
+      
+      
+    </div>
+    <div class="col-md-5 mt-3" style=""> 
+      
+      
+      <div class="row mb-0">
+        <div class="col-md-12">
+          <div class="media pt-1 pb-3 bordered">
+                <div class="media-left pr-2">
+                <img src="environment/images/circular-economy.jpg" class="media-object img-fluid" style="max-width:6rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontTypeE pr-0 mr-1" style="font-weight:bold;"> Future, Explained </span><a href="environment/articles/circular-economy.html">The Circular Economy: What It Is and What It Means For India</a></b></h4></div>
+                <h6 class="readTime mt-2"> Read Time: 4 minutes </h6>
+                <h6 class="readTime mt-1"> <b> Environment Editorial </b></h6>
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+          <div class="media pt-1 pb-3 bordered">
+              <div class="media-left pr-2">
+                <img src="environment/images/hemp.jpg" class="media-object img-fluid" style="max-width:6rem;">
+                </div>
+                <div class="media-middle">
+                <div class="media-heading" class="articleTitle" style="margin-top:-0.4rem;font-family: 'Playfair Display', serif;"><h4><b><span class="onTheFrontTypeE pr-0 mr-1" style="font-weight:bold;"> Envision </span><a href="environment/articles/hemp-benefits-india.html">How The Cultivation Of Hemp Could Help In Solving India's Problems</a></b></h4></div>
+                <h6 class="readTime mt-2"> Read Time: 4 minutes </h6>
+                <h6 class="readTime mt-1"> <b> Environment Editorial </b></h6>
+                
+              </div>
+            </div>
+            
+            
+            
+            
+        </div>
+      </div>
+      <div class="row mt-3 mb-0">
+        <div class="col-md-12">
+           <div class="mainArticle bordered pt-1 pb-3" style="">
+            
+            <img class="img-fluid mainStoryImage" src="environment/images/india-waste-crisis.jpg" style="max-width:100%;">
+            
+            <div class="mainStoryTitle articleTitle mt-3" style=""><h3><span class="onTheFrontTypeE pr-0 mr-1" style="font-weight:bold;"> Opinion </span><a href="
+               environment/articles/waste-crisis-systemic-changes.html"><b>Our Looming Waste Crisis Calls For Systemic Economic Changes, Not Just Unitary Measures</b></a></h3></div>
+            <h5><div style="" class="readTime mt-2"> Read Time: 5 minutes </div></h5>
+            <h5 class="readTime mt-1"> <b> Zeal Editorial </b></h5>
+            
+          </div>
+            
+            
+            
+        </div>
+      </div>
+      
+
+     
+        
+
+</div>
+</div>
+</div>
+<br><br><br>
+<footer class="page-footer font-small bg-light pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="navbar-brand" style="font-size:2rem !important;">The Indian Zeal</h5>
+           
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 style="margin-bottom:0.67em !important;">Quick Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-primary" href="index.html">Weekly</a>
+              </li>
+              <li>
+                <a class="text-primary" href="./thestudent/index.html">Student</a>
+              </li>
+              <li>
+                <a class="text-primary" href="./mission/index.html">Mission</a>
+              </li>
+              
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-2">© 2019 Copyright:
+      <a class="text-primary" href="http://www.indianzeal.in"> Indianzeal.in</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+</body>
+<script>
+$('.mainArticle, .media').hover(function()
+{
+	$(this).find('a').css('text-decoration', 'underline');
+
+},
+function() 
+{
+	$(this).find('a').css('text-decoration', 'none');
+});
+$('.mainArticle, .media').click(function()
+{
+	window.location = $(this).find('a').attr('href');
+
+});
+
+
+</script>
+</html>

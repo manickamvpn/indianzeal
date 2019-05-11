@@ -1,0 +1,301 @@
+.title
+          {
+            
+            font-family:'Playfair Display', serif;
+            font-weight:bold;
+            
+            
+            word-wrap:break-word;
+            color:#444443;
+
+          }
+.type
+          {
+            margin-top:0px;
+            position:relative;
+            font-family:'Source Sans Pro', sans-serif;
+            
+            color:#808080;
+            left:1px;
+            font-weight:bold;
+
+          }
+    
+    .readingTime
+          {
+            position:relative;
+            font-family:'Source Sans Pro', sans-serif;
+            
+            font-weight:bold;
+            color:#808080;
+            left:1px;
+          }
+    .author
+        {
+          border:solid 0px;
+          border-right-width:3px;
+          color:#922228;
+        }
+    .date 
+          {
+            position:relative;
+            font-family:'Source Sans Pro', sans-serif;
+            font-weight:bold;
+           color:#808080;
+            
+            left:1px;
+          }
+    .articleContent
+          { 
+            width:95%;
+            
+          }
+    .content
+          {
+            margin-top:0px;
+          }
+
+    .subTitle
+          {
+            
+            font-size:2rem;
+            font-family:'Source Sans Pro', sans-serif;
+            color:#444443;
+            margin-top:15px;
+            border:solid 0px;
+            border-color:#444443;
+            border-bottom-width:4px;
+            padding-top:10px;
+            padding-bottom:10px;
+          }
+    .mainText
+          {
+            font-size:21px;
+            
+            
+            font-family:'Source Sans Pro', sans-serif;
+            color:#444443;
+
+          }
+    .contentImage
+          {          
+            
+            
+          }
+    .highlight
+          {
+            position:relative;
+            width:98%;
+            
+            border: solid 3px;
+            border-left-width: 3px;
+            border-right-width: 3px;
+            border-top-width: 0px;
+            border-bottom-width:0px;
+            border-color:#44893C;
+            margin:0 auto;
+            text-align:center;
+            font-family:'Source Sans Pro';
+            font-weight:bold;
+            font-size:25px;
+            color:#44893C;
+          }
+    .firstLetter
+          {
+            font-family:georgia;
+            font-size:38px;
+            line-height:0.9em;
+          }
+    .textSubtitle
+          {
+            font-family:georgia;
+            font-size:23px;
+            
+            text-decoration:underline;
+          }
+
+    .sideDiv
+          {
+            
+            
+            
+          }
+    .designDiv
+          {
+            width:100px;
+            height:6px;
+            background:#444443;
+            margin-left:5%;
+          }
+    .sideDivTitle
+          {
+            
+            
+            top:10px;
+            font-family:categoryFont;
+            font-size:25px;
+            word-wrap:break-word;
+            color:#63666a;
+            margin-left:5%;
+            
+          }
+
+
+.navbar {
+        min-height: 70px;
+      }
+
+.navbar-brand {
+  padding: 0 5px;
+  height: 70px;
+  line-height: 70px;
+  font-size:45px !important;
+  font-family:titleFont;
+  color:#444443 !important;
+}
+.nav-link
+{
+  font-family:categoryFont;
+}
+.nav-item
+{
+
+}
+
+.navbar-toggler {
+  /* (80px - button height 34px) / 2 = 23px */
+  
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+.imageDescription
+{
+  color:grey;
+  font-size:1rem;
+}
+
+@media (min-width: 1200px) {
+
+  .navbar-brand 
+          {
+            font-size: 45px !important;
+          }
+        .nav-link
+          {
+            font-size:25px;
+            
+          }
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    
+    padding: 21.5px 15px 21.5px 21.5px !important;
+    line-height: 27px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 1200px) 
+      {
+        .navbar
+          {
+            min-height:40px;
+          }
+          .title
+          {
+            font-size:30px;
+          }
+          .type
+          {
+            font-size:18px;
+          }
+          .readingTime
+          {
+            font-size:1rem;
+          }
+          .date
+          {
+            font-size:1rem;
+          }
+        .navbar-brand 
+          {
+            height:50px;
+            font-size: 30px !important;
+          }
+        .nav-link
+          {
+           font-size:20px;
+           border:0px !important;
+
+          }
+        .mainText
+          {
+            font-size:18px;
+          }
+        .subTitle
+          {
+            font-size:25px;
+          }
+        .textSubtitle
+          {
+            font-size:20px;
+          }
+          .imageDescription
+          {
+            font-size:0.8rem;
+          }
+        .navbar-toggler {
+  /* (80px - button height 34px) / 2 = 23px */
+              
+          }
+      }
+      blockquote {
+border: 0px solid;
+border-left: 10px solid #922228;
+
+
+margin: 10px;
+padding: 10px 20px;
+
+}
+
+blockquote p {
+margin: 0;
+line-height: 30px;
+font-weight:bold;
+color:#922228;
+}
+
+blockquote .small {
+display: block;
+font-size: 80%;
+color: brown;
+text-align: right;
+}
+.fa-facebook {
+
+
+}
+
+.fa-twitter {
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.icons
+{
+  margin-left:1px;
+}

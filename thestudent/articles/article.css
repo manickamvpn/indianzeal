@@ -220,6 +220,10 @@
           {
             font-size:1rem;
           }
+          .fa-2x
+          {
+            font-size:1.5em !important;
+          }
         .navbar-brand 
           {
             height:45px !important;

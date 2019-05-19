@@ -314,4 +314,28 @@ text-align: right;
 {
   margin-left:1px;
 }
+.media a
+{
+  color: inherit;
+}
+.onTheFrontType
+        {
+          font-family:'Playfair Display', serif;
+          color:#922228;
+          border:solid 0px;
+          border-color:#922228;
+
+          border-right-width:2px;
+        }
+.readTime
+        {
+          
+          font-weight:bold;
+          color:#686868;
+          font-family:'Source Sans Pro', serif;
+        }
+.bordered
+        {
+          border:solid 0px; border-bottom-width:1px; border-color:#C0C0C0;
+        }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
